@@ -160,6 +160,9 @@ h1, h2, h3, h4, h5, h6  {
     grid-row: 1 / span 3;
 }
 
+.l-heading {
+    font-size: 3rem;
+}
 
 .py-1 {
     padding: 1.5rem 0;
@@ -297,6 +300,18 @@ h1, h2, h3, h4, h5, h6  {
 
 #home-articles .articles-container > *:last-child {
     grid-column: 2 / span 2;
+}
+
+article .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 0.5rem;
+}
+
+article .meta .category {
+    margin-top: 0.4rem;
 }
 
 /* footer */
