@@ -91,6 +91,10 @@ h1, h2, h3, h4, h5, h6  {
     background: var(--light-color);
 }
 
+.btn-dark {
+    background: #333;
+}
+
 .btn-primary {
     background: var(--primary-color);
 }
